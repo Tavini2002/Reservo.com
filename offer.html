@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reservo.com - Offers</title>
+        <link rel="stylesheet" href="offer.css">
+    </head>
+    <body>
+        <script src="script.js"></script>
+            <div class="container">
+                <div class="navbar">
+                    <a href="index.html">
+                        <img src="images/logo.png" class="logo">
+                    </a>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><div class="dropdown">
+                                <p class="dropbtn">Resources</p>
+                                <div class="dropdown-content">
+                                  <a href="#">Hotels</a>
+                                  <a href="#">Events</a>
+                                  <a href="#">Travel</a>
+                                  <a href="movie.html">Movie</a>
+                                </div></li>
+                            
+                            <li><a href="offer.html">Offers</a></li>
+                            <li><a href="payment.html">Payments</a></li>
+                            <li><a href="help_desk.html">Help Desk</a></li>
+                        </ul>
+                    </nav>
+                </div>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------> 
+                <div class="offer">
+                        <h1>Offers</h1>
+                        <p>"Experience Unbeatable Value: Browse Our Offers"</p>
+                </div>
+                    <div class="col">
+                        <div class="card card1">
+                            <p>1</p>
+                        </div>
+                        <div class="card card2">
+                            <p>2</p>
+                        </div>
+                        <div class="card card3">
+                            <p>3</p>
+                        </div>
+                        <div class="card card4">
+                            <p>4</p>
+                        </div>
+                        <div class="card card5">
+                            <p>5</p>
+                        </div>
+                        <div class="card card6">
+                            <p>6</p>
+                        </div>
+                        <div class="card card7">
+                            <p>7</p>
+                        </div>
+                        <div class="card card8">
+                            <p> 8</p>
+                        </div>
+                        <div class="card card9">
+                            <p> 9</p>
+                        </div>
+                        <div class="card card10">
+                            <p> 10</p>
+                        </div>
+                    </div> 
+                    <br><br>
+                    <hr><br>
+                    <!--Form Starting Point-->
+                        <br><br>
+
+                        <center>
+                            <div class="container-form">
+                                <form action="offer.php" method="POST">
+                                    <div class="offer-info">
+                                        <div class="offer-input-box">
+                                            <label for="number">Offer Number</label>
+                                            <input type="number" id="number" name="number" placeholder="As per the above offer cards" min="1" max="10"/>
+                                        </div>
+                                        <div class="offer-input-box">
+                                            <label for="vip">VIP/NON- VIP</label>
+                                            <input type="text" id="vip" name="vip" placeholder="Ex: VIP/VVIP/NON-VIP"/>
+                                        </div>
+                                        <div class="offer-input-box">
+                                            <label for="category">Offer Category</label>
+                                            <input type="text" id="category" name="category" placeholder="Ex: Movie/Event/Travel/Hotels"/>
+                                        </div>
+                                        <div class="offer-input-box">
+                                            <label for="type">Offer Type</label>
+                                            <input type="text" id="type" name="type" placeholder="Ex: Daily/Monthly/Seasonal"/>
+                                        </div>
+
+                                        <div class="offer-input-box">
+                                        <label for="minprice">Minimum Price : </label> 
+                                            <input type="number" name="mini" min="3000" placeholder="Enter value more than Rs.3,000"/>
+                                        </div>
+
+                                        <div class="offer-input-box">
+                                            <label for="maxprice">Maximum Price : </label> 
+                                            <input type="number" name="maxi" min="10000" placeholder="Enter value less than Rs.10,000"/>
+                                        </div>
+                                    </div>
+                                
+                                    <button type="submit" name="submit">Submit</button>
+                                    <button type="reset">Reset</button>
+                                    <br><br><hr>
+                                </form>
+                            </div>
+                        </center> </div>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------> 
+
+<!--------------------------------------------------Footer---------------------------------------------------> 
+            
+<footer>
+    <div class="footer-content">
+          <p>"Welcome to our booking platform, your ultimate destination for unlocking extraordinary experiences around the globe. 
+            With our user-friendly interface, extensive selection of accommodations, and seamless booking process, 
+            we strive to make your travel dreams a reality."</p>
+
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/"><img src="images/face.png"></a></li>
+                <li><a href="https://twitter.com/"><img src="images/twit.png"></a></li>
+                <li><a href="https://lk.linkedin.com/"><img src="images/link.png"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="images/ins.png"></a></li>
+            </ul>
+            <ul class="stores">
+               <li><a href="#"><img src="images/both app.png"></a></li>
+            </ul> 
+            <ul class="pay">
+                <li><a href="#"><img src="images/visa.jpg"></a></li>
+                <li><a href="#"><img src="images/master.jpg"></a></li>
+                <li><a href="#"><img src="images/paypal.jpg"></a></li>
+             </ul> 
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright &copy;2020 CodeCore. designed by <span>Mithun</span></p>
+    </div>
+</footer>
+
+ <!--------------------------------------------------Footer--------------------------------------------------->  
+           
+        
+    </body>
+</html>

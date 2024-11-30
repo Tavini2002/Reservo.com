@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reservo.com - Payment</title>
+    <link rel="stylesheet" href="payment.css">
+    <style>
+        .confirm-button {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+            font-size: 20px;
+            padding: 10px;
+            border: black 2px solid;
+            border-radius: 4px;
+            background-color: #80daea;
+            color: black;
+            font-family: 'Franklin Gothic Medium';
+        }
+
+        .confirm-button:hover {
+            margin-top: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #80daea;
+            font-family: 'Franklin Gothic Medium';
+            border: #80daea 2px solid;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">
+                <img src="images/logo.png" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <p class="dropbtn">Resources</p>
+                            <div class="dropdown-content">
+                                <a href="#">Hotels</a>
+                                <a href="#">Events</a>
+                                <a href="#">Travel</a>
+                                <a href="movie.html">Movie</a>
+                            </div>
+                    </li>
+                    <li><a href="offer.html">Offers</a></li>
+                    <li><a href="payment.html">Payments</a></li>
+                    <li><a href="help_desk.html">Help Desk</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <br><br><br>
+        <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <div class="register">
+            <h1>Payment</h1>
+            <p>"Securing your information is our duty"</p>
+        </div>
+
+        <!--Form Starting Point-->
+
+        <center>
+            <div class="container-form">
+                <form>
+                    <div class="main-user-info">
+                        <div class="user-input-box">
+                            <label for="holder">Card holder's Name</label>
+                            <input type="text" name="holder" id="name" placeholder="Enter Card holder's name" />
+                        </div>
+                        <div class="user-input-box">
+                            <label for="cvv">CVV</label>
+                            <input type="number" name="cvv" id="cvv" placeholder="For CVV check back side of the card"
+                                min="0" max="999" />
+                        </div>
+                        <div class="user-input-box">
+                            <label for="number">Card Number</label>
+                            <input type="number" name="number" id="card" placeholder="Enter Card Number" />
+                        </div>
+                        <div class="user-input-box">
+                            <label for="monthYear">Expiary Date</label>
+                            <div class="date">
+                                <select name="month" id="month">
+                                    <option value="Jan">January</option>
+                                    <option value="Feb">February</option>
+                                    <option value="Mar">March</option>
+                                    <option value="Apr">April</option>
+                                    <option value="May">May</option>
+                                    <option value="Jun">June</option>
+                                    <option value="Jul">July</option>
+                                    <option value="Aug">August</option>
+                                    <option value="Sep">September</option>
+                                    <option value="Oct">October</option>
+                                    <option value="Nov">November</option>
+                                    <option value="Dec">December</option>
+                                </select>
+                            </div>
+                            <div class="date">
+                                <select name="year" id="year">
+                                    <option value="2028">2028</option>
+                                    <option value="2027">2027</option>
+                                    <option value="2026">2026</option>
+                                    <option value="2025">2025</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2023">2023</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="card-category">
+                                <img src="images/master.jpg" alt=""><input type="radio" name="card" id="master">
+                                <img src="images/visa.jpg" alt=""><input type="radio" name="card" id="visa">
+                                <img src="images/paypal.jpg" alt=""><input type="radio" name="card" id="paypal">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="confirm-button button" type="button" value="payment">Pay</button><br>
+                    </div>
+                </form>
+            </div>
+        </center>
+    </div>
+
+    <!--Form Ending Point-->
+
+    <!-----------------------------------------------------Footer-------------------------------------------------------------------------------------------------->
+    <!--------------------------------------------------Footer--------------------------------------------------->
+
+    <footer>
+        <div class="footer-content">
+            <p>"Welcome to our booking platform, your ultimate destination for unlocking extraordinary experiences
+                around the globe.
+                With our user-friendly interface, extensive selection of accommodations, and seamless booking process,
+                we strive to make your travel dreams a reality."</p>
+
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/"><img src="images/face.png"></a></li>
+                <li><a href="https://twitter.com/"><img src="images/twit.png"></a></li>
+                <li><a href="https://lk.linkedin.com/"><img src="images/link.png"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="images/ins.png"></a></li>
+            </ul>
+            <ul class="stores">
+                <li><a href="#"><img src="images/both app.png"></a></li>
+            </ul>
+            <ul class="pay">
+                <li><a href="#"><img src="images/visa.jpg"></a></li>
+                <li><a href="#"><img src="images/master.jpg"></a></li>
+                <li><a href="#"><img src="images/paypal.jpg"></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright &copy;2020 CodeCore. designed by <span>Mithun</span></p>
+        </div>
+    </footer>
+
+    <!--------------------------------------------------Footer--------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+</body>
+<script>
+    $(document).ready(function () {
+        $(".button").click(function () {
+            var btnVal = $(this).val();
+            if (btnVal == "payment") {
+                var ajaxurl = "payment.php",
+                    data = {
+                        action: "payment",
+                        formData: {
+                            cardHolderName: $("#name").val(),
+                            cardNumber: $("#card").val(),
+                            cardCVV: $("#cvv").val(),
+                            year: $("#year").val(),
+                            month: $("#month").val(),
+                        },
+                    };
+                $.post(ajaxurl, data, function (response) {
+                    alert("Payment successful");
+                });
+            }
+        });
+    });
+</script>
+
+</html>

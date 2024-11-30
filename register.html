@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reservo.com - Register</title>
+        <link rel="stylesheet" href="register.css">
+    </head>
+    <body>
+        <script src="script.js"></script>
+            <div class="container">
+                <div class="navbar">
+                    <a href="index.html">
+                        <img src="images/logo.png" class="logo">
+                    </a>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><div class="dropdown">
+                                <p class="dropbtn">Resources</p>
+                                <div class="dropdown-content">
+                                  <a href="#">Hotels</a>
+                                  <a href="#">Events</a>
+                                  <a href="#">Travel</a>
+                                  <a href="movie.html">Movie</a>
+                                </div></li>
+                            <li><a href="offer.html">Offers</a></li>
+                            <li><a href="payment.html">Payments</a></li>
+                            <li><a href="help_desk.html">Help Desk</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <br><br><br>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------->                
+                <div class="register">
+                        <h1>Register</h1>
+                        <p>"Warmlly welcome to our website"</p>
+                </div>
+                
+                <!--Form Starting Point-->
+                <center>
+                    <div class="container-form">
+                        <form action="register.php" method="POST">
+                            <div class="main-user-info">
+                                <div class="user-input-box">
+                                    <label for="fullname">Full Name</label>
+                                    <input type="text" id="fullname" name="fullname" placeholder="Enter Fullname" autocomplete="off"/>
+                                </div>
+                                <div class="user-input-box">
+                                    <label for="username">Username</label>
+                                    <input type="text" id="username" name="username" placeholder="Enter Username" autocomplete="off"/>
+                                </div>
+                                <div class="user-input-box">
+                                    <label for="password">Password</label>
+                                    <input type="password" id="password" name="password" placeholder="Enter Password" autocomplete="off"/>
+                                </div>
+                                <div class="user-input-box">
+                                    <label for="confirmPassword">Confirm Password</label>
+                                    <input type="confirmPassword" id="password" name="confirmPassword" placeholder="Confirm Password" autocomplete="off"/>
+                                </div>
+                                <div class="user-input-box">
+                                    <label for="email">Email</label>
+                                    <input type="text" id="email" name="email" placeholder="Enter Email" autocomplete="off"/>
+                                </div>
+                                <div class="user-input-box">
+                                    <label for="phoneNo">Phone Number</label>
+                                    <input type="text" id="phoneNo" name="phoneNo" placeholder="Enter Phone Number" autocomplete="off"/>
+                                </div>
+                            </div><br>
+                            <div class="gender-details-box">
+                                <span class="gender-title">Gender</span>
+                                <div class="gender-category">
+                                    <input type="radio" name="gender" id="male">
+                                    <label for="male">Male</label>
+                                    <input type="radio" name="gender" id="female">
+                                    <label for="female">Female</label>
+                                </div>
+                            </div>
+                            <div class="form-submit-btn">
+                                <input type="submit" name="submit" value="Register">
+                            </div>
+                            <br>
+                            <div class="login">
+                            <p>Already have an account? <a href="login.html">Log In</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </center></div>
+<!--------------------------------------------------Footer---------------------------------------------------> 
+            
+<footer>
+    <div class="footer-content">
+          <p>"Welcome to our booking platform, your ultimate destination for unlocking extraordinary experiences around the globe. 
+            With our user-friendly interface, extensive selection of accommodations, and seamless booking process, 
+            we strive to make your travel dreams a reality."</p>
+
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/"><img src="images/face.png"></a></li>
+                <li><a href="https://twitter.com/"><img src="images/twit.png"></a></li>
+                <li><a href="https://lk.linkedin.com/"><img src="images/link.png"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="images/ins.png"></a></li>
+            </ul>
+            <ul class="stores">
+               <li><a href="#"><img src="images/both app.png"></a></li>
+            </ul> 
+            <ul class="pay">
+                <li><a href="#"><img src="images/visa.jpg"></a></li>
+                <li><a href="#"><img src="images/master.jpg"></a></li>
+                <li><a href="#"><img src="images/paypal.jpg"></a></li>
+             </ul> 
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright &copy;2020 CodeCore. designed by <span>Mithun</span></p>
+    </div>
+</footer>
+
+ <!--------------------------------------------------Footer--------------------------------------------------->  
+            
+    </body>
+</html>

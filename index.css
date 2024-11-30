@@ -1,0 +1,310 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width:100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/h1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    
+    height:12%;
+    display:flex;
+    align-items: center;
+}
+.logo
+{
+    width:90px;
+    cursor: pointer;
+    
+}
+
+.menu-icon
+{
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.menu-icon-a
+{
+    width:50px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav
+{
+    flex:1;
+    text-align: right;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color:white ;
+    font-size: 15px;
+    border:1px;
+    padding:10px;
+}
+
+.row
+{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col
+{
+    flex-basis:50%;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+}
+
+p
+{
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button
+{
+    width:180px;
+    color:black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 0;
+    background:rgb(46, 219, 225);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+}
+
+button a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.card
+{
+    width:210px;
+    height: 230px;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:15px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 1s;
+   
+}
+
+.card1
+{
+    background-image: url(images/h2.jpg);
+}
+
+.card2
+{
+   background-image: url(images/event.jpg); 
+}
+
+.card3
+{
+    background-image: url(images/movie.jpg); 
+}
+
+.card4
+{
+    background-image: url(images/flight.jpg); 
+}
+
+.card:hover
+{
+    transform: translateY(-10px);
+}
+
+h5
+{
+    text-shadow: 0 0 5px #999;
+}
+
+.card p
+{
+    color:black;
+    text-shadow:0 0 15px #000;
+    font-size:12px;
+}
+/****************************************Footer***************************************/
+footer
+{
+    background: #111;
+    background-position: bottom;
+    height:auto;
+    width:100%;
+    font-family: sans-serif;
+    padding-top: 20px;
+    color: white;
+    display: inline-block;
+}
+
+.footer-content
+{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    
+}
+
+.footer-content h3
+{
+    font-size: 1.8rem;
+    font-weight:400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p
+{
+    max-width:500px;
+    margin:10px auto;
+    line-height:28px;
+    font-size: 14px;
+    padding-bottom:20px;
+}
+
+.socials
+{
+    list-style: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:1rem 0 3rem 0;
+}
+
+.socials li
+{
+    margin:0 10px;
+}
+
+.socials a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.socials a i
+{
+    font-size: 1.1rem;
+    transition: color .4s ease;   
+}
+
+.socials a:hover i
+{
+    color:aqua;
+}
+
+.socials img
+{
+    width: 25px;
+}
+
+.stores
+{
+    list-style: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 0 0 0;
+}
+
+.pay
+{
+    list-style: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 0 0 0;
+    padding-right: 20px;
+}
+
+.pay img
+{
+    padding-top:0;
+    margin-top: 5px;
+    text-align: center;
+    width: 70px;
+    height:40px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.stores img
+{
+    padding-top:0;
+    margin-top: 5px;
+    text-align: center;
+    width: 120px;
+    height:80px;
+}
+
+.stores a
+{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+.footer-bottom
+{
+    background: black;
+    width:100%;
+    padding:20px 0;
+    text-align: center;
+}
+
+.footer-bottom p
+{
+    font-size:14px;
+    word-spacing:2px;
+    text-transform:capitalize;
+}
+
+.footer-bottom span
+{
+    text-transform:uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
